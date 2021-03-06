@@ -1,9 +1,12 @@
 version: "3.0"
 
 services:
-  node-server-template:
+  sonarqube-prometheus-exporter:
     build:
       context: .
     ports:
       - "9300:3000"
+    environment:
+      - SONARQUBE_URL=${SONARQUBE_URL}
+      - SONARQUBE_TOKEN=${SONARQUBE_TOKEN}
     restart: always

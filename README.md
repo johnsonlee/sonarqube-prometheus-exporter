@@ -1,2 +1,4 @@
-# node-server-template
-Template project for Node.js based web server
+# sonarqube-prometheus-exporter
+
+SonarQube metrics exporter for Prometheus
+

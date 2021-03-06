@@ -1,7 +1,7 @@
 {
-  "name": "node-server-template",
+  "name": "sonarqube-prometheus-exporter",
   "version": "1.0.0",
-  "description": "Template project for Node.js based web server",
+  "description": "SonarQube metrics exporter for Prometheus",
   "main": "index.js",
   "scripts": {
     "start": "npm run build:live",
@@ -10,15 +10,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnsonlee/node-server-template.git"
+    "url": "git+https://github.com/johnsonlee/sonarqube-prometheus-exporter.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "sonarqube",
+    "prometheus",
+    "metrics"
+  ],
+  "author": "johnsonlee",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johnsonlee/node-server-template/issues"
+    "url": "https://github.com/johnsonlee/sonarqube-prometheus-exporter/issues"
   },
-  "homepage": "https://github.com/johnsonlee/node-server-template#readme",
+  "homepage": "https://github.com/johnsonlee/sonarqube-prometheus-exporter#readme",
   "devDependencies": {
     "@types/koa": "^2.13.1",
     "@types/koa-router": "^7.4.1",
